@@ -3,8 +3,8 @@
 	var Fjord,
 			cache,
 			old,
-			l = window.location.protocol + '//' + window.location.host + '/',
-			y = !!window.history && !!window.history.pushState && !!window.history.replaceState;
+			loc = window.location.protocol + '//' + window.location.host + '/',
+			yay = !!window.history && !!window.history.pushState && !!window.history.replaceState;
 	
 	cache = [];
 	
@@ -102,7 +102,7 @@
 	
 	//
 	
-	if (y) {
+	if (yay) {
 	
 		window.onload = function() {
 			history.replaceState({ path: window.location.href }, '');
@@ -119,7 +119,7 @@
 		window.onclick = function (event) {
 			var t;
 			t = event.target;
-			if (t.tagName === 'A' && t.href.indexOf(l) === 0) {
+			if (t.tagName === 'A' && t.href.indexOf(loc) === 0) {
 				event.preventDefault();
 				if (t.href !== window.location.href) {
 					Fjord.visit(t.href, 'push');
