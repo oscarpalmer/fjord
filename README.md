@@ -2,6 +2,8 @@
 
 Basically Turbolinks, but less awesome.
 
+Now in CoffeeScript, because hey, I'm hip and cool.
+
 ## Licence
 
 ### MIT Licence
