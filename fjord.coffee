@@ -77,9 +77,8 @@ Fjord =
 		else
 			xhr = this.request()
 			xhr.onload = () ->
-				clean = xhr.responseText.replace(/\s+/g, ' ').replace /\t+/g, ''
-				html  = clean.replace /^(.*)<body>(.*)<\/body>(.*)$/, '$2'
-				title = clean.replace /^(.*)<title>(.*)<\/title>(.*)$/, '$2'
+				html  = xhr.responseText.replace /^([\s\S]+)<body>([\s\S]+)<\/body>([\s\S]+)$/, '$2'
+				title = xhr.responseText.replace /^([\s\S]+)<title>([\s\S]+)<\/title>([\s\S]+)$/, '$2'
 				item =
 					body: html
 					title: title
