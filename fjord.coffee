@@ -27,7 +27,7 @@ Fjord =
         url: url
         x: 0
         y: 0
-    cache.push item
+      cache.push item
 
   # Is the item with this url cached?
   cached: (url) ->
