@@ -1,7 +1,7 @@
 {
   "name": "fjord",
   "description": "Basically Turbolinks, but less awesome.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "fjord.js",
   "ignore": [
     "readme.md"
