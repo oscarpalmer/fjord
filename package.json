@@ -4,15 +4,15 @@
   "files": ["fjord.js", "fjord.min.js"],
   "homepage": "http://git.io/fjord",
   "jam": {
-    "main": "fjord.js"
+    "main": "fjord.min.js"
   },
   "keywords": ["ajax"],
   "license": "MIT",
-  "main": "fjord.js",
+  "main": "fjord.min.js",
   "name": "fjord",
   "repository": {
     "type": "git",
     "url": "https://github.com/oscarpalmer/fjord.git"
   },
-  "version": "0.1.1"
+  "version": "0.2.0"
 }

@@ -1,9 +1,10 @@
 {
-  "name": "fjord",
   "description": "Basically Turbolinks, but less awesome.",
-  "version": "0.1.1",
-  "main": "fjord.js",
   "ignore": [
+    "package.json",
     "readme.md"
-  ]
+  ],
+  "main": "fjord.min.js",
+  "name": "fjord",
+  "version": "0.2.0"
 }
