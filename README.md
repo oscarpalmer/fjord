@@ -6,6 +6,10 @@ Basically Turbolinks, but less awesome.
 
 Fjord is available (as `fjord`) via [Bower](http://bower.io), [Jam](http://jamjs.org), and [npm](http://npmjs.org).
 
+## Events
+
+Fjord fires two events as it fetches and renders a page; `fjord:load` before the actual loading, and `fjord:ready` after everything has finished.
+
 ## Todo
 
 - Run included script tag content.
