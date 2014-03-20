@@ -1,5 +1,7 @@
 # Fjord
 
+[![NPM version](https://badge.fury.io/js/fjord.png)](http://badge.fury.io/js/fjord)
+
 Basically Turbolinks, but less awesome.
 
 ## Installation
