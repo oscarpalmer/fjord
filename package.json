@@ -1,6 +1,11 @@
 {
   "author": "Oscar Palmér <opalmer@me.com> (http://opalmer.me)",
   "description": "Basically Turbolinks, but less awesome.",
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-uglify": "*"
+  },
   "files": ["fjord.js", "fjord.min.js"],
   "homepage": "http://git.io/fjord",
   "jam": {
@@ -14,5 +19,5 @@
     "type": "git",
     "url": "https://github.com/oscarpalmer/fjord.git"
   },
-  "version": "0.3.0"
+  "version": "0.3.1"
 }
