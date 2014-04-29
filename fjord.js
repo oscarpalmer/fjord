@@ -159,6 +159,10 @@
       var
       target = event.target;
 
+      if (event.metaKey || event.ctrlKey) {
+        return true;
+      }
+
       if (target.tagName === "A" && target.href.indexOf(baseurl) === 0) {
         event.preventDefault();
 
