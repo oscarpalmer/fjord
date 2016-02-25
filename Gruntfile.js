@@ -4,12 +4,12 @@ module.exports = function(grunt) {
     uglify: {
       dist: {
         files: {
-          "<%= pkg.name %>.min.js": ["<%= pkg.name %>.js"]
+          "dist/<%= pkg.name %>.js": ["src/<%= pkg.name %>.js"]
         }
       }
     },
     jshint: {
-      files: ["<%= pkg.name %>.js"]
+      files: ["src/<%= pkg.name %>.js"]
     }
   });
 
